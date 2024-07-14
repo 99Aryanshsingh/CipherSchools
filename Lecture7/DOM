@@ -1,0 +1,8 @@
+document.write("Shivang");
+document.writein("Agrawal");
+document.cipherpara
+document.val
+document.val.name
+document.val.name.value
+// this are few command which we learn about in this video...
+// i used the html file of lecture 4 to practice this commands

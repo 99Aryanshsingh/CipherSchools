@@ -1,0 +1,66 @@
+/* p{
+    text-align: center;
+} */
+/* css will be applied on all paragraph  */
+
+/* #myPara{
+    text-align: center;
+} */
+/* css will be applied only on paragraph which has id=myPara */
+
+/* .center-para{
+    text-align: center;
+} */
+/* css will be applied on element having class name=center-para */
+
+/*
+ *{
+    font-family: 'Times New Roman', Times, serif;
+} */
+/* css will be applied on whole website */ 
+
+/* 
+h1, p, .center-para{
+    text-align: center;
+    color: aquamarine;
+} */
+/* the style will be applied on h1,p,.center-para, This is called grouping */
+
+/* div p{
+    background-color: aqua;
+} */
+/* css will be applied only on paragraph under div tag "Decendent selector" */
+
+/* div p{
+    background-color: aqua;
+}
+
+div > p{
+    background-color: aquamarine;
+} */
+/* every decendent is child but every child is not decendent "child selector"*/
+
+/* div + p{
+    background-color: blanchedalmond;
+} */
+/* css will be applied only on paraggraph just next to div tag "adjacent sibling selector"*/
+
+/* div ~ p{
+    background-color: blanchedalmond;
+} */
+/* css will be applied only on paraggraph  next to div tag "general sibling selector"*/
+
+/* div ~ p:hover{
+    background-color: blanchedalmond;
+} */
+/* css will be applied only on paraggraph  next to div tag only when we put mouse over them "pseudo selector"*/
+
+/* div ~ p::first-letter{
+    color: blanchedalmond;
+} */
+/* pseudo element selector-this will only apply css on first letter */
+
+a[target]{
+    background-color: cyan;
+}
+/* atribute selector */

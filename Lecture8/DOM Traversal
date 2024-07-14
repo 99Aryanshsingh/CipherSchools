@@ -1,0 +1,33 @@
+const heading = document.querySelectorAll("h2");
+headings;
+
+const firstHeading = headings[0];
+firstHeading;
+
+const seconHeading = headings[1];
+secondHeading;
+
+document.querySelector(".orange").innerHTML;
+
+const appleList = document.querySelector(".appleList");
+appleList.children;
+
+appleList.childNodes;
+
+appleLlist.firstChild;
+
+appleList.lastChild;
+
+appleList.parentElement;
+
+appleList.parentNode;
+
+const btn1 = document.querySelector(".btn-1");
+btn1.closest("main");
+btn1;
+
+const orange = document.querySelector(".orange");
+
+const apple = orange.previousElemnentSibling;
+
+const avocado = orange.nextElementSibling;
